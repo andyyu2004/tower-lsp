@@ -97,7 +97,7 @@ use self::jsonrpc::{Error, Result};
 
 pub mod jsonrpc;
 
-mod codec;
+pub mod codec;
 mod service;
 mod transport;
 
